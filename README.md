@@ -25,6 +25,7 @@
 
 2. Master node configuration:
 
+
     [system]
     brokerId=0
     numPartitions=1
