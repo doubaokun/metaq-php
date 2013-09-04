@@ -14,10 +14,10 @@
 
 ##MetaQ server installation and configurations:
 
-wget http://fnil.net/downloads/metaq-server-1.4.6.2.tar.gz
+    wget http://fnil.net/downloads/metaq-server-1.4.6.2.tar.gz
 
-Web UI of MetaQ: http://192.168.1.149:8120/
-Web UI of zookeeper: https://github.com/qiuxiafei/zk-web.git
+    Web UI of MetaQ: http://192.168.1.149:8120/
+    Web UI of zookeeper: https://github.com/qiuxiafei/zk-web.git
 
 ##Notes
 
