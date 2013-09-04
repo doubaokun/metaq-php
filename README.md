@@ -1,6 +1,6 @@
 #MetaQ PHP Client library
 
-* Support producer short connection and long connection, this require config file
+* Support producer short connection and long connection, this require the config file
 * Producer random select a broker-partition for load balance, no proxy required
 * Support master async salve group cluster, circle backups
 * Producer auto failover
