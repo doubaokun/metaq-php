@@ -25,7 +25,6 @@
 
 2. Master node configuration:
 
-
     [system]
     brokerId=0
     numPartitions=1
@@ -43,11 +42,9 @@
     putProcessThreadCount=40
     dataPath=/home/bruce/meta2
     
-
     ;; Update consumers offsets to current max offsets when consumers offsets are out of range of current broker's messages.
     ;; It must be false in production.But recommend to be true in development or test.
     updateConsumerOffsets=false
-
 
     [zookeeper]
     zk.zkConnect=localhost:2181
@@ -55,13 +52,11 @@
     zk.zkConnectionTimeoutMs=30000
     zk.zkSyncTimeMs=5000
 
-
     ;; Topics section
     [topic=t1]
     numPartitions=5
 
 3. Slave configuration:
-
 
     slaveId=1
     slaveGroup=meta-slave-group
@@ -69,7 +64,6 @@
     autoSyncMasterConfig=true
 
 4. Install PHP zookeeper extension:
-
 
     4.1. Install libzookeeper
     4.2. pecl install zookeeper-0.2.2
