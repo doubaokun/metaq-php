@@ -21,10 +21,11 @@
 
 ##Notes
 
-1. Remember to set updateConsumerOffsets=false
+### Remember to set 
 
-2. Master node configuration:
+    updateConsumerOffsets=false
 
+### Master node configuration:
 
     [system]
     brokerId=0
@@ -57,14 +58,14 @@
     [topic=t1]
     numPartitions=5
 
-3. Slave configuration:
+### Slave configuration:
 
     slaveId=1
     slaveGroup=meta-slave-group
     slaveMaxDelayInMills=50
     autoSyncMasterConfig=true
 
-4. Install PHP zookeeper extension:
+### Install PHP zookeeper extension:
 
-    4.1. Install libzookeeper
-    4.2. pecl install zookeeper-0.2.2
+    1. Install libzookeeper
+    2. pecl install zookeeper-0.2.2
