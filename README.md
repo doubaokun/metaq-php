@@ -16,7 +16,7 @@
 
     wget http://fnil.net/downloads/metaq-server-1.4.6.2.tar.gz
 
-    Web UI for MetaQ: http://192.168.1.149:8120/
+    Web UI for MetaQ: http://ip:8120/
     Web UI for zookeeper: https://github.com/qiuxiafei/zk-web.git
 
 ##Notes
